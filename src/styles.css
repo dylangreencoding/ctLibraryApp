@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.8rem;
+  background-color: burlywood;
+}
+
+button {
+  display: inline-block;
+  background-color: lightblue;
+  border: none;
+  padding: 0.4rem;
+  margin: 0.4rem;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: gold;
+}
+
+.nav {
+  padding: 1rem 0;
+  background-color: lightblue;
+
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav-link {
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  border-bottom: 1px black solid;
+}
+
+.active-tab {
+  font-weight: 900;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 100%;
+
+  padding: 1rem;
+  background-color: green;
+}
+
+.btn-off {
+  pointer-events: none;
+  background-color: grey;
+}
+
+.table-box {
+  height: 50rem;
+  font-size: inherit;
+}
